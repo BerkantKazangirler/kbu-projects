@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input
+        type="text"
+        placeholder="Sayı Giriniz"
+        value="0"
+        onkeypress="kareAl(this)"
+      />
+      <p id="sonuc"></p>
+    </form>
+
+    <form>
+      <input type="text" placeholder="Sayı Giriniz" value="0" id="sayi" />
+      <input type="button" value="Küpünü Al" onclick="küpAl()" />
+      <p id="sonuc2"></p>
+    </form>
+
+    <form>
+      <input type="text" placeholder="Sayı Giriniz" value="0" id="sayi2" />
+      <input type="button" value="Yarısını Al" onclick="yariAl()" />
+      <p id="sonuc3"></p>
+    </form>
+
+    <form>
+      <input type="text" placeholder="Sayı Giriniz" value="0" id="sayi3" />
+      <input type="text" placeholder="Sayı Giriniz" value="0" id="sayi4" />
+      <input type="button" onclick="topla()" value="Topla" />
+      <p id="sonuc4"></p>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
