@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 style="color: red">Üyelik Bilgileri</h2>
+    <p>
+      Üyelik formu eksiksizce doldurularak üyelik hizmetlerinden hemen
+      yararlanmaya başlayabilirsiniz.
+    </p>
+    <form action="">
+      <table>
+        <tr>
+          <td>Adınız : <br /><input type="text" /></td>
+          <td>Soyadınız : <br /><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>E-Posta : <br /><input type="email" /></td>
+          <td>E-Posta (tekrar) : <br /><input type="email" /></td>
+        </tr>
+        <tr>
+          <td>Şifreniz : <br /><input type="password" /></td>
+          <td>Şifreniz (tekrar) : <br /><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>
+            Doğum Tarihi : <br />
+            <input type="number" min="1" max="31" style="width: 40px" />
+            <input type="number" min="1" max="12" style="width: 40px" />
+            <input type="number" min="1900" max="2025" style="width: 60px" />
+          </td>
+          <td>
+            Cep Telefon Numarası : <br /><input
+              type="number"
+              maxlength="2"
+              min="1"
+              style="width: 40px"
+            />
+            <input type="number" min="1" maxlength="10" style="width: 110px" />
+          </td>
+        </tr>
+        <tr>
+          <td>Güvenlik Kodu :<br /><input type="text" /></td>
+          <td>
+            <input type="checkbox" name="uyelik" id="" />Üyelik Sözleşmesini
+            kabul ediyorum
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input
+              type="submit"
+              style="background-color: red; color: white"
+              value="Ücretsiz Kayıt Ol"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
