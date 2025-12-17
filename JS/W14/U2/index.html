@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hava Durumu Uygulaması - Fetch API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hava Durumu Uygulaması</h1>
+      <p>Fetch API ile Meteoroloji Servisinden Veri Çekme</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Şehir Bazlı Hava Durumu Sorgusu</h2>
+        <p>
+          Aşağıya bir şehir adı yazın (örnek:
+          <strong>İstanbul, Ankara, London</strong>) ve
+          <em>“Hava Durumunu Getir”</em> butonuna tıklayın.
+        </p>
+
+        <div class="form-row">
+          <input
+            id="cityInput"
+            type="text"
+            placeholder="Şehir adı (örn: Istanbul)"
+          />
+          <button id="btnWeather">Hava Durumunu Getir</button>
+        </div>
+
+        <div id="weatherResult" class="result-box hidden">
+          <!-- Sonuçlar burada gösterilecek -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Frontend Lab – Fetch API & Meteoroloji Servisi</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
