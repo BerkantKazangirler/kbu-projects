@@ -1,7 +1,7 @@
 SELECT * FROM customers;
-SELECT company_name, company_name, country FROM customers;
-SELECT company_name AS "İletişim Bilgisi", company_name AS "Firma Adı", country AS "Ülke" FROM customers;
-SELECT contact_name, phone, country FROM customers WHERE country = 'UK';
-SELECT contact_name, phone, country FROM customers WHERE country LIKE 'U%';
-SELECT contact_name, phone, country FROM customers WHERE contact_name LIKE '%na%';
-SELECT contact_name, phone, country FROM customers WHERE contact_name LIKE '%';
+SELECT contact_name, country FROM customers WHERE contact_name LIKE 'A%';
+SELECT contact_name, country FROM customers WHERE contact_name SIMILAR TO '[A-H]%';
+SELECT contact_name, country FROM customers WHERE country LIKE 'U_';
+SELECT contact_name, country FROM customers WHERE country LIKE '%e_m%';
+SELECT contact_name, country FROM customers WHERE contact_name SIMILAR TO '[^DH]%';
+SELECT contact_title, country FROM customers WHERE contact_title LIKE '%_w_e%' AND country LIKE '%M_x%';

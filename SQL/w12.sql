@@ -1,5 +1,16 @@
-
-SELECT * FROM customers;
-SELECT contact_name, country FROM customers WHERE contact_name LIKE 'A%';
-SELECT contact_name, country FROM customers WHERE contact_name SIMILAR TO '[A-H]%';
-SELECT contact_name, country FROM customers WHERE country LIKE 'U_';
+select 2*2*2*2*2*2*2;
+select * from products;
+select product_name, unit_price from products;
+select product_name, unit_price, unit_price * 0.9 as "İndirimli Fiyat" from products;
+select product_name, unit_price as "Eski Fiyat", unit_price * 0.80 as "İndirimli Fiyat" from products where product_name like '%H%';
+select length('Onur');
+select now();
+select upper('test');
+select lower('TEST');
+select substring('Test Test Test', 6,4);
+select left ('Test',2);
+select right ('Test',1);
+select ltrim ('         test          ');
+select ltrim(rtrim(('         test          ')));
+select replace('KARABUK BILISIM MYO', 'KARABUK', 'YENICE');
+select reverse('Test');

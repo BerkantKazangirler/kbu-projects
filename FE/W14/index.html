@@ -1,65 +1,91 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Örnek Kurumsal Tema</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
+  <link rel="stylesheet" href="styles.css" />
   <body>
     <div class="container">
-      <div class="menu">
-        <a href="#" class="active">ANASAYFA</a>
-        <a href="#">HAKKIMIZDA</a>
-        <a href="#">REFERANSLAR</a>
-        <a href="#">İLETİŞİM</a>
-      </div>
-
-      <!-- Banner -->
-      <div class="banner">
-        <div class="banner-text">
-          <h2>OrnekSite.com</h2>
-          <p>Kurumsal web çözümleri<br />modern ve sade tasarım</p>
+      <header>
+        <div class="logos">
+          <img src="logo.png" alt="Logo" />
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="area">
+          <div class="project-area">
+            <img src="logo.png" alt="" />
+            <div class="text-area">
+              <h2>Heading For Project</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                optio eos assumenda quibusdam molestiae minus magnam? Sint ipsa
+                fuga laudantium voluptatibus deserunt, officia alias eveniet
+                ducimus aperiam? Amet, alias doloremque?
+              </p>
+            </div>
+          </div>
+          <div class="input-area">
+            <h2>Quick Quote</h2>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" />
+            <label for="mail">Your Email</label>
+            <input type="email" id="mail" />
+            <label for="looking">What are you looking for?</label>
+            <textarea name="" id="looking"></textarea>
+            <input type="button" value="Submit" />
+          </div>
         </div>
       </div>
-
-      <!-- Başlık -->
-      <div class="section">
-        <h3>BAŞLIK</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          pharetra, tellus sit amet congue vulputate.
-        </p>
-        <a href="#" class="btn">DEVAMI</a>
-      </div>
-
-      <!-- Kartlar -->
-      <div class="cards">
-        <div class="card">
-          <img src="https://picsum.photos/300/200?office" alt="" />
-          <h4>BAŞLIK 1</h4>
+      <div class="mini-footer">
+        <div class="footer-item">
+          <h2>About</h2>
           <p>
-            Cras elit nisl, rhoncus nec luctus ultrices, feugiat sed sapien.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            nemo omnis accusamus earum voluptas adipisci distinctio error,
+            repellendus ipsum quidem excepturi fugiat consequatur, fugit
+            possimus. Similique nulla error voluptates voluptas.
           </p>
-          <a href="#" class="btn">DEVAMI</a>
+          <a href="#">View</a>
         </div>
-
-        <div class="card">
-          <img src="https://picsum.photos/300/200?beach" alt="" />
-          <h4>BAŞLIK 2</h4>
-          <p>Phasellus elit dolor, porttitor id consectetur sit amet.</p>
-          <a href="#" class="btn">DEVAMI</a>
+        <div class="footer-item">
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            nemo omnis accusamus earum voluptas adipisci distinctio error,
+            repellendus ipsum quidem excepturi fugiat consequatur, fugit
+            possimus. Similique nulla error voluptates voluptas.
+          </p>
+          <a href="#">View</a>
         </div>
-
-        <div class="card">
-          <img src="https://picsum.photos/300/200?woman" alt="" />
-          <h4>BAŞLIK 3</h4>
-          <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
-          <a href="#" class="btn">DEVAMI</a>
+        <div class="footer-item">
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            nemo omnis accusamus earum voluptas adipisci distinctio error,
+            repellendus ipsum quidem excepturi fugiat consequatur, fugit
+            possimus. Similique nulla error voluptates voluptas.
+          </p>
+          <a href="#">View</a>
         </div>
       </div>
+      <footer>
+        <p>© 2024 Your Company. All rights reserved.</p>
 
-      <!-- Footer -->
-      <div class="footer">Copyright © 2013 orneksite.com</div>
+        <div class="footer-info">
+          <input type="text" class="footer-input" />
+          <input type="button" value="Send" class="send-btn" />
+        </div>
+      </footer>
     </div>
   </body>
 </html>

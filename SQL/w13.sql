@@ -1,16 +1,20 @@
-select 2*2*2*2*2*2*2;
+select distinct country from customers;
+select distinct country from customers order by country;
+select distinct country from customers order by country asc;
+select distinct country from customers order by country desc;
+
+select * from order_details limit 5;
+select * from order_details limit 5 offset 10;
+select min(unit_price) from order_details;
+select max(unit_price) from order_details;
+select avg(unit_price) from order_details;
+select count(unit_price) from order_details;
+select count(unit_price) from order_details where order_id = 10250;
+select sum(unit_price) from order_details; -- toplama
+select order_id, count(order_id) from order_details group by order_id;
+select order_id, count(order_id) from order_details group by order_id order by order_id;
 select * from products;
-select product_name, unit_price from products;
-select product_name, unit_price, unit_price * 0.9 as "İndirimli Fiyat" from products;
-select product_name, unit_price as "Eski Fiyat", unit_price * 0.80 as "İndirimli Fiyat" from products where product_name like '%H%';
-select length('Onur');
-select now();
-select upper('test');
-select lower('TEST');
-select substring('Test Test Test', 6,4);
-select left ('Test',2);
-select right ('Test',1);
-select ltrim ('         test          ');
-select ltrim(rtrim(('         test          ')));
-select replace('KARABUK BILISIM MYO', 'KARABUK', 'YENICE');
-select reverse('Test');
+select country, count(country) from customers group by country order by country;
+
+select product_name, unit_price from products where unit_price between 9 and 25;
+select product_name, unit_price from products where product_name between 'A%' and 'H%';
