@@ -1,0 +1,19 @@
+body {
+  background-color: orange;
+}
+
+#galeri {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 999999px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}

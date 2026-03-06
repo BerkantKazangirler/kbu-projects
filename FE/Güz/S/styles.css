@@ -1,0 +1,30 @@
+* {
+  color: black;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#test {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+p {
+  line-height: 10px;
+}
+
+h1 {
+  width: 50px;
+  font-size: smaller;
+  line-height: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fetch API Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fetch API Deney Föyü</h1>
+      <p>API'den veri çekme uygulamaları</p>
+    </header>
+    <main>
+      <!-- GÖREV 1 Kartı -->
+      <section class="card">
+        <h2>Görev 1 – Tek Gönderi Getir (GET)</h2>
+        <p>
+          Aşağıdaki butona tıklandığında bir "post" verisi
+          <code>https://jsonplaceholder.typicode.com/posts/1</code>
+          adresinden çekilecek ve ekrana yazdırılacaktır.
+        </p>
+        <button id="btnPost">Gönderiyi Getir</button>
+        <div id="postResult" class="result-box"></div>
+      </section>
+
+      <!-- GÖREV 2 Kartı -->
+      <section class="card">
+        <h2>Görev 2 – Kullanıcı Listesi</h2>
+        <p>
+          Butona tıklandığında kullanıcı listesi
+          <code>https://jsonplaceholder.typicode.com/users</code>
+          API’sinden çekilecek ve isimler listelenecektir.
+        </p>
+        <button id="btnUsers">Kullanıcıları Getir</button>
+        <ul id="userList" class="result-list"></ul>
+      </section>
+
+      <!-- GÖREV 3 Kartı -->
+      <section class="card">
+        <h2>Görev 3 – Belirli Kullanıcının ToDo Listesi</h2>
+        <p>
+          Kullanıcı ID girilerek o kullanıcıya ait yapılacaklar (todos)
+          <code>https://jsonplaceholder.typicode.com/todos?userId=</code>
+          üzerinden çekilecektir.
+        </p>
+        <input
+          id="userIdInput"
+          type="number"
+          placeholder="Kullanıcı ID (1-10)"
+        />
+        <button id="btnTodos">Yapılacakları Getir</button>
+        <ul id="todoList" class="result-list"></ul>
+      </section>
+
+      <!-- GÖREV 4 Kartı (Bonus - async/await) -->
+      <section class="card">
+        <h2>Görev 4 – async/await ile Gönderi Getirme (Bonus)</h2>
+        <p>Bu görevde aynı işlemi async/await ile yapacağız.</p>
+        <button id="btnPostAsync">Gönderiyi Getir (async)</button>
+        <div id="postAsyncResult" class="result-box"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Fetch API Lab – Ön Yüz Yazılım Geliştirme Programı</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

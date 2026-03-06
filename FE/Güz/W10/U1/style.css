@@ -1,0 +1,21 @@
+img {
+  width: 120px;
+  border-radius: 100%;
+}
+
+h1 {
+  color: yellow;
+}
+
+h2 {
+  color: orange;
+}
+
+h3 {
+  color: red;
+}
+
+a {
+  color: hotpink;
+  text-decoration: none;
+}

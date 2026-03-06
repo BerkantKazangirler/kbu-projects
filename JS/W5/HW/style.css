@@ -1,0 +1,119 @@
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+  width: 400px;
+  height: 600px;
+  background-color: teal;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#display {
+  height: 150px;
+  background-color: #004d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #006666;
+}
+
+#total {
+  color: white;
+  font-size: 48px;
+  text-align: right;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  word-break: break-all;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#buttons {
+  height: 450px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  height: 70px;
+}
+
+.btn {
+  flex: 1;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.number:hover {
+  background-color: #e0e0e0;
+}
+
+.operator {
+  background-color: #ff9500;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #e6850e;
+}
+
+.equals {
+  background-color: #ff9500;
+  color: white;
+  height: 155px;
+  margin-top: 0;
+}
+
+.equals:hover {
+  background-color: #e6850e;
+}
+
+.clear {
+  background-color: #ff3333;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #e62e2e;
+}
+
+.zero {
+  flex: 2;
+  margin-right: 10px;
+}
