@@ -7,14 +7,30 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center">Test</h1>
-    </div>
-    <form action="">
+      <h1 id="title" class="app-title text-center">Shopping List</h1>
+      <form action="">
+        <div>
+          <input
+            type="text"
+            name="newItem"
+            id="newItem"
+            placeholder="Enter new item"
+          />
+          <input type="submit" value="Addy" />
+        </div>
+      </form>
       <div>
-        <input type="text" id="newItem" aria-placeholder="Test" />
-        <button type="submit">Add</button>
+        <a href="" class="btn btn-sm btn-primary">All</a>
+        <a href="">Incomplete</a>
+        <a href="">Complete</a>
       </div>
-    </form>
-    <script src="script.js"></script>
+      <ul id="group1">
+        <li class="item">item 1</li>
+        <li class="item">item 2</li>
+        <li class="item">item 3</li>
+        <li class="item">item 4</li>
+        <li class="item">item 5</li>
+      </ul>
+    </div>
   </body>
 </html>

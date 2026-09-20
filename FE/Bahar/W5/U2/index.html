@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        background-color: rgb(106, 6, 85);
+        color: beige;
+        font-size: 50px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+      }
+      @media (max-width: 768px) {
+        .container {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (max-width: 480px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello, World!</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus odit,
+        architecto adipisci commodi beatae quos optio quasi. Corrupti, nam eum
+        necessitatibus minima debitis aliquam. Totam dolores laboriosam fugit
+        tenetur ipsam?
+      </p>
+    </div>
+    <div class="container-fluid">
+      <h1>Fluid Container</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+        aperiam ea sed nihil consequuntur nulla praesentium tempora optio a
+        minima possimus expedita rerum quo cum sint maxime, voluptate
+        consequatur? Maxime?
+      </p>
+    </div>
+    <hr />
+    <div class="container text-center">
+      <div class="row">
+        <div class="cols-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus sint
+          obcaecati minima, blanditiis nulla porro voluptatum voluptatibus
+          numquam enim recusandae fugit similique. Delectus rerum dolorem
+          maiores commodi labore officiis.
+        </div>
+        <div class="cols-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+          ab eligendi eos optio. Nihil corporis molestiae ea tempore deserunt
+          nesciunt error, placeat cupiditate quae eos ratione sunt expedita.
+          Numquam, asperiores.
+        </div>
+        <div class="cols-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ab
+          voluptatem itaque dolorum voluptatum incidunt quas neque, tenetur
+          dolore quidem fuga odit, magni temporibus rerum non minus architecto
+          voluptates illum.
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container text-center">
+      <div class="row">
+        <div class="cols-md-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus sint
+          obcaecati minima, blanditiis nulla porro voluptatum voluptatibus
+          numquam enim recusandae fugit similique. Delectus rerum dolorem
+          maiores commodi labore officiis.
+        </div>
+        <div class="cols-md-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+          ab eligendi eos optio. Nihil corporis molestiae ea tempore deserunt
+          nesciunt error, placeat cupiditate quae eos ratione sunt expedita.
+          Numquam, asperiores.
+        </div>
+        <div class="cols-md-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ab
+          voluptatem itaque dolorum voluptatum incidunt quas neque, tenetur
+          dolore quidem fuga odit, magni temporibus rerum non minus architecto
+          voluptates illum.
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container text-center">
+      <div class="row">
+        <div class="cols-sm-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus sint
+          obcaecati minima, blanditiis nulla porro voluptatum voluptatibus
+          numquam enim recusandae fugit similique. Delectus rerum dolorem
+          maiores commodi labore officiis.
+        </div>
+        <div class="cols-sm-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+          ab eligendi eos optio. Nihil corporis molestiae ea tempore deserunt
+          nesciunt error, placeat cupiditate quae eos ratione sunt expedita.
+          Numquam, asperiores.
+        </div>
+        <div class="cols-sm-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ab
+          voluptatem itaque dolorum voluptatum incidunt quas neque, tenetur
+          dolore quidem fuga odit, magni temporibus rerum non minus architecto
+          voluptates illum.
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
