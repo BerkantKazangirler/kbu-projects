@@ -1,0 +1,32 @@
+{
+  "name": "İlk PWA Uygulamam",
+  "short_name": "İlkPWA",
+  "description": "İlk PWA uygulamam",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#5f5f5f",
+  "theme_color": "#1976d2",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "./src/icons/icon96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/icons/icon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/icons/icon256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/icons/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

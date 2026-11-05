@@ -1,0 +1,23 @@
+{
+  "name": "Safranbolu Gezi Rehberi",
+  "short_name": "Safranbolu",
+  "description": "Safranbolu tanıtım PWA uygulaması",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#782d5b",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "./images/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

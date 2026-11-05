@@ -1,0 +1,20 @@
+{
+  "name": "PWA Service Worker Lab Uygulaması",
+  "short_name": "PWA Lab",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "/icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

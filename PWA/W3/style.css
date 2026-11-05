@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  margin: 0;
+  padding: 30px;
+}
+main {
+  max-width: 650px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+}
+h1 {
+  color: #1d4ed8;
+}
+button {
+  padding: 12px;
+  margin: 5px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1e40af;
+}
+#durum {
+  font-weight: bold;
+}
+#gunluk {
+  background-color: #e2e8f0;
+  padding: 20px 20px 20px 35px;
+  border-radius: 8px;
+}

@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+h1 {
+  color: #1e40af;
+}
+
+h2 {
+  color: #111827;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #1e40af;
+  background: #1e40af;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#posts {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#posts li {
+  background: #ffffff;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+}
+
+#posts-status {
+  margin-top: 15px;
+  font-style: italic;
+  color: #374151;
+}
